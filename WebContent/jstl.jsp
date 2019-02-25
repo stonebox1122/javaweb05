@@ -145,6 +145,7 @@
 		c:url: 产生一个url地址，可以根据Cookie是否可用来智能进行URL重写，对GET请求的参数进行编码
 		可以把产生的URL存储在域对象的属性中
 		还可以使用c:param为URL添加参数。c:url会对参数进行自动的转码
+		value中的"/"代表当前Web应用的根目录
 	</h4>
 	<c:url value="/el.jsp" var="elurl" scope="page">
 		<c:param name="name" value="STONE"></c:param>
